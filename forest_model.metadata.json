@@ -1,0 +1,19 @@
+{
+  "model_version": "1.0.0",
+  "training_date": "2026-08-23",
+  "model_type": "HistGradientBoostingClassifier",
+  "best_params": {
+    "learning_rate": 0.05,
+    "max_iter": 500,
+    "max_leaf_nodes": 63
+  },
+  "metrics": {
+    "cv_mean_accuracy": 0.8708500000000001,
+    "test_accuracy": 0.89,
+    "test_macro_f1": 0.8443475585441577
+  },
+  "training_rows": 40000,
+  "test_rows": 10000,
+  "feature_count": 54,
+  "n_classes": 7
+}
